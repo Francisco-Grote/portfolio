@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francisco Perez Grote - Junior Developer & Systems Analyst</title>
+    <link rel="icon" href="img/code.png" type="img">
+    <meta name="description" content="Portfolio profesional de Francisco Perez Grote - Junior Developer especializado en C#, .NET, Power BI, JavaScript y análisis de sistemas.">
+    <meta name="keywords" content="junior developer, systems analyst, C#, .NET, Power BI, JavaScript, SQL, HTML, CSS, portfolio, programador junior, analista de sistemas">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#home">FPG</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-es="Inicio" data-en="Home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-es="Sobre mí" data-en="About">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience" data-es="Experiencia" data-en="Experience">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" data-es="Habilidades" data-en="Skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-es="Proyectos" data-en="Projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-es="Contacto" data-en="Contact">Contacto</a>
+                    </li>
+                </ul>
+                
+                <div class="d-flex align-items-center gap-2">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="bi bi-moon"></i>
+                    </button>
+                    <button class="lang-toggle" id="langToggle">EN</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 data-es="Francisco Perez Grote" data-en="Francisco Perez Grote">Francisco Perez Grote</h1>
+                        <h2 class="hero-subtitle" data-es="Junior Developer & Analista de Sistemas" data-en="Junior Developer & Systems Analyst">Junior Developer & Analista de Sistemas</h2>
+                        <p class="lead" data-es="Estudiante de Lic. en Inteligencia Artificial y Robótica con experiencia práctica en desarrollo C#, Python, .NET, Power BI y análisis de datos. Apasionado por crear soluciones tecnológicas innovadoras." data-en="Student of AI and Robotics with practical experience in C# development, Python, .NET, Power BI, and data analysis. Passionate about creating innovative technological solutions.">Estudiante de Lic. en Inteligencia Artificial y Robótica con experiencia práctica en desarrollo C#, Python, .NET, Power BI y análisis de datos. Apasionado por crear soluciones tecnológicas innovadoras.</p>
+                        <div class="hero-buttons">
+                            <a href="#experience" class="btn btn-primary me-3" data-es="Ver Experiencia" data-en="View Experience">Ver Experiencia</a>
+                            <a href="#contact" class="btn btn-outline-primary" data-es="Contactar" data-en="Contact Me">Contactar</a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label" data-es="Años de Experiencia" data-en="Years Experience">Años de Experiencia</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">25%</span>
+                                <span class="stat-label" data-es="Mejora Operativa Lograda" data-en="Operational Improvement">Mejora Operativa Lograda</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="hero-image">
+                        <div class="profile-container">
+                            <div class="profile-bg"></div>
+                            <img src="img/Otra foto.jpg" alt="Francisco Perez Grote" class="profile-photo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about fade-in" id="about">
+        <div class="container">
+            <h2 class="section-title" data-es="Sobre mí" data-en="About Me">Sobre mí</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="about-content">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <p data-es="Soy Francisco Perez Grote, estudiante de Licenciatura en Inteligencia Artificial y Robótica en la Universidad Siglo XXI. Mi formación semi-presencial me permite combinar mis estudios con experiencia laboral práctica y mi pasión por el rugby." data-en="I'm Francisco Perez Grote, a student of AI and Robotics at Universidad Siglo XXI. My semi-presential education allows me to combine studies with practical work experience and my passion for rugby.">Soy Francisco Perez Grote, estudiante de Licenciatura en Inteligencia Artificial y Robótica en la Universidad Siglo XXI. Mi formación semi-presencial me permite combinar mis estudios con experiencia laboral práctica y mi pasión por el rugby.</p>
+                                <p data-es="Como persona inquieta con mucha actitud y ganas de progresar, he desarrollado experiencia sólida en desarrollo de software, análisis de datos y gestión de proyectos IT. Mi objetivo es seguir creciendo profesionalmente en roles de desarrollo junior donde pueda aplicar mis conocimientos técnicos y contribuir a proyectos innovadores." data-en="As a restless person with great attitude and desire to progress, I've developed solid experience in software development, data analysis, and IT project management. My goal is to continue growing professionally in junior development roles where I can apply my technical knowledge and contribute to innovative projects.">Como persona inquieta con mucha actitud y ganas de progresar, he desarrollado experiencia sólida en desarrollo de software, análisis de datos y gestión de proyectos IT. Mi objetivo es seguir creciendo profesionalmente en roles de desarrollo junior donde pueda aplicar mis conocimientos técnicos y contribuir a proyectos innovadores.</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="about-highlights">
+                                    <div class="highlight-item">
+                                        <i class="bi bi-graduation-cap"></i>
+                                        <span data-es="Estudiante IA & Robótica" data-en="AI & Robotics Student">Estudiante IA & Robótica</span>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <i class="bi bi-briefcase"></i>
+                                        <span data-es="2+ años experiencia" data-en="2+ years experience">2+ años experiencia</span>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <i class="bi bi-trophy"></i>
+                                        <span data-es="Mejoras del 25%" data-en="25% improvements">Mejoras del 25%</span>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <i class="bi bi-heart"></i>
+                                        <span data-es="Jugador de Rugby" data-en="Rugby Player">Jugador de Rugby</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience fade-in" id="experience">
+        <div class="container">
+            <h2 class="section-title" data-es="Experiencia Laboral" data-en="Work Experience">Experiencia Laboral</h2>
+            <div class="timeline">
+                <!-- Zecat Experience -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="expand-indicator">
+                                <i class="bi bi-chevron-down"></i>
+                            </div>
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="position-title" data-es="Desarrollador C# Jr. | Analista BI | Integrador de Sistemas" data-en="C# Jr. Developer | BI Analyst | Systems Integrator">Desarrollador C# Jr. | Analista BI | Integrador de Sistemas</h3>
+                                    <h4 class="company-name">Zecat</h4>
+                                </div>
+                                <span class="date-range" data-es="Octubre 2023 - Presente" data-en="October 2023 - Present">Octubre 2023 - Presente</span>
+                            </div>
+                            <ul class="achievements">
+                                <li data-es="Desarrollo de soluciones en .NET MVC 4 con Razor, conectando sistemas internos con APIs REST de e-commerce y Bejerman" data-en="Development of .NET MVC 4 solutions with Razor, connecting internal systems with e-commerce and Bejerman REST APIs">Desarrollo de soluciones en .NET MVC 4 con Razor, conectando sistemas internos con APIs REST de e-commerce y Bejerman</li>
+                                <li data-es="Limpieza, análisis y mantenimiento de bases de datos SQL usando DBeaver" data-en="Database cleaning, analysis and maintenance using DBeaver">Limpieza, análisis y mantenimiento de bases de datos SQL usando DBeaver</li>
+                                <li data-es="Creación de stored procedures y tablas; modificación de jobs para importar pedidos automáticamente desde BJM al sistema interno" data-en="Creation of stored procedures and tables; modification of jobs to automatically import orders from BJM to internal system">Creación de stored procedures y tablas; modificación de jobs para importar pedidos automáticamente desde BJM al sistema interno</li>
+                                <li data-es="Participación activa en la arquitectura del sistema, planteando mejoras técnicas y funcionales en reuniones con líderes, gerentes y proveedores" data-en="Active participation in system architecture, proposing technical and functional improvements in meetings with leaders, managers and providers">Participación activa en la arquitectura del sistema, planteando mejoras técnicas y funcionales en reuniones con líderes, gerentes y proveedores</li>
+                                <li data-es="Capacitación de más de 20 personas en áreas operativas y diseño de operaciones, promoviendo el uso eficiente del sistema" data-en="Training of more than 20 people in operational areas and operations design, promoting efficient system use">Capacitación de más de 20 personas en áreas operativas y diseño de operaciones, promoviendo el uso eficiente del sistema</li>
+                                <li data-es="Implementación de tableros Power BI consumidos por toda la empresa: estructuración, mantenimiento y actualización continua junto al analista de BI" data-en="Implementation of Power BI dashboards consumed by the entire company: structuring, maintenance and continuous updating with BI analyst">Implementación de tableros Power BI consumidos por toda la empresa: estructuración, mantenimiento y actualización continua junto al analista de BI</li>
+                                <li data-es="Impulsé un nuevo módulo de embalado que optimizó la coordinación entre producción y logística, generando una mejora operativa del 25%" data-en="I drove a new packaging module that optimized coordination between production and logistics, generating a 25% operational improvement">Impulsé un nuevo módulo de embalado que optimizó la coordinación entre producción y logística, generando una mejora operativa del 25%</li>
+                                <li data-es="Trabajo colaborativo con Git, despliegue en entorno de testing vía FileZilla, y coordinación con proveedores para pasos a producción" data-en="Collaborative work with Git, deployment in testing environment via FileZilla, and coordination with providers for production steps">Trabajo colaborativo con Git, despliegue en entorno de testing vía FileZilla, y coordinación con proveedores para pasos a producción</li>
+                                <li data-es="Participación en entornos cloud (Azure y AWS) orientado al uso de bases de datos" data-en="Participation in cloud environments (Azure and AWS) oriented to database use">Participación en entornos cloud (Azure y AWS) orientado al uso de bases de datos</li>
+                                <li data-es="Desarrollo de propuestas, presentaciones de mejoras y establecimiento de fechas clave para proyectos" data-en="Development of proposals, improvement presentations and establishment of key dates for projects">Desarrollo de propuestas, presentaciones de mejoras y establecimiento de fechas clave para proyectos</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">.NET MVC</span>
+                                <span class="tech-tag">Razor</span>
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">Power BI</span>
+                                <span class="tech-tag">APIs REST</span>
+                                <span class="tech-tag">Azure</span>
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">Git</span>
+                                <span class="tech-tag">FileZilla</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MANA Group Experience -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="expand-indicator">
+                                <i class="bi bi-chevron-down"></i>
+                            </div>
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="position-title" data-es="Junior Information Technology Advisor" data-en="Junior Information Technology Advisor">Junior Information Technology Advisor</h3>
+                                    <h4 class="company-name">MANA Group</h4>
+                                </div>
+                                <span class="date-range" data-es="Enero 2022 - Abril 2023" data-en="January 2022 - April 2023">Enero 2022 - Abril 2023</span>
+                            </div>
+                            <ul class="achievements">
+                                <li data-es="PMO de proyectos integrales de IT" data-en="PMO of comprehensive IT projects">PMO de proyectos integrales de IT</li>
+                                <li data-es="Optimización de procesos mediante implementación de ERP" data-en="Process optimization through ERP implementation">Optimización de procesos mediante implementación de ERP</li>
+                                <li data-es="Asesoramiento en procesos de digitalización de documentación sensible y cumplimiento con períodos de almacenamiento" data-en="Advice on digitization processes of sensitive documentation and compliance with storage periods">Asesoramiento en procesos de digitalización de documentación sensible y cumplimiento con períodos de almacenamiento</li>
+                                <li data-es="Soporte IT del sistema de gestión implementado" data-en="IT support of implemented management system">Soporte IT del sistema de gestión implementado</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span class="tech-tag">ERP</span>
+                                <span class="tech-tag">PMO</span>
+                                <span class="tech-tag">IT Support</span>
+                                <span class="tech-tag">Process Optimization</span>
+                                <span class="tech-tag">Documentation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hindu Club Experience -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="expand-indicator">
+                                <i class="bi bi-chevron-down"></i>
+                            </div>
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="position-title" data-es="Project Leader IT" data-en="Project Leader IT">Project Leader IT</h3>
+                                    <h4 class="company-name">Hindu Club</h4>
+                                </div>
+                                <span class="date-range" data-es="Marzo 2021 - Enero 2022" data-en="March 2021 - January 2022">Marzo 2021 - Enero 2022</span>
+                            </div>
+                            <ul class="achievements">
+                                <li data-es="Implementación de ERP" data-en="ERP implementation">Implementación de ERP</li>
+                                <li data-es="Monitoreo de dashboards" data-en="Dashboard monitoring">Monitoreo de dashboards</li>
+                                <li data-es="Telecomunicaciones y redes" data-en="Telecommunications & network">Telecomunicaciones y redes</li>
+                                <li data-es="Soporte IT integral" data-en="Comprehensive IT Support">Soporte IT integral</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span class="tech-tag">ERP</span>
+                                <span class="tech-tag">Dashboards</span>
+                                <span class="tech-tag">Networks</span>
+                                <span class="tech-tag">Telecommunications</span>
+                                <span class="tech-tag">IT Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills fade-in" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-es="Habilidades Técnicas" data-en="Technical Skills">Habilidades Técnicas</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-file-earmark-code"></i>
+                        </div>
+                        <h3 class="skill-title" data-es="Desarrollo Backend" data-en="Backend Development">Desarrollo Backend</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">.NET MVC</span>
+                            <span class="skill-tag">APIs REST</span>
+                            <span class="skill-tag">Razor</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-database"></i>
+                        </div>
+                        <h3 class="skill-title" data-es="Bases de Datos" data-en="Databases">Bases de Datos</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">DBeaver</span>
+                            <span class="skill-tag">Stored Procedures</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-bar-chart"></i>
+                        </div>
+                        <h3 class="skill-title" data-es="Análisis de Datos" data-en="Data Analysis">Análisis de Datos</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">Dashboards</span>
+                            <span class="skill-tag">Data Visualization</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-code-square"></i>
+                        </div>
+                        <h3 class="skill-title" data-es="Frontend" data-en="Frontend">Frontend</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">SCSS/SASS</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-cloud"></i>
+                        </div>
+                        <h3 class="skill-title" data-es="Cloud & DevOps" data-en="Cloud & DevOps">Cloud & DevOps</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Azure</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">FileZilla</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <h3 class="skill-title" data-es="Gestión de Proyectos" data-en="Project Management">Gestión de Proyectos</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">PMO</span>
+                            <span class="skill-tag">ERP Implementation</span>
+                            <span class="skill-tag">Process Optimization</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects fade-in" id="projects">
+        <div class="container">
+            <h2 class="section-title" data-es="Proyectos" data-en="Projects">Proyectos</h2>
+            <div class="coming-soon-section">
+                <div class="coming-soon-icon">
+                    <i class="bi bi-code-slash"></i>
+                </div>
+                <h3 class="coming-soon-title" data-es="Próximamente..." data-en="Coming Soon...">Próximamente...</h3>
+                <p class="coming-soon-description" data-es="Estoy trabajando en proyectos increíbles que estarán disponibles pronto. Mientras tanto, puedes revisar mi experiencia laboral y habilidades técnicas." data-en="I'm working on amazing projects that will be available soon. Meanwhile, you can check my work experience and technical skills.">Estoy trabajando en proyectos increíbles que estarán disponibles pronto. Mientras tanto, puedes revisar mi experiencia laboral y habilidades técnicas.</p>
+                
+                <div class="project-preview-cards">
+                    <div class="preview-card">
+                        <div class="preview-icon">
+                            <i class="bi bi-box"></i>
+                        </div>
+                        <h4 class="preview-title" data-es="Sistema de Embalado" data-en="Packaging System">Sistema de Embalado y Diseño UX/UI</h4>
+                        <p class="preview-description" data-es="Módulo desarrollado en .NET que optimizó procesos operativos" data-en="Module developed in .NET that optimized operational processes">Módulo desarrollado en .NET que optimizó procesos operativos</p>
+                    </div>
+                    
+                    <div class="preview-card">
+                        <div class="preview-icon">
+                            <i class="bi bi-graph-up"></i>
+                        </div>
+                        <h4 class="preview-title" data-es="Dashboard Power BI" data-en="Power BI Dashboard">Dashboards Power BI</h4>
+                        <p class="preview-description" data-es="Tableros interactivos para análisis empresarial" data-en="Interactive dashboards for business analysis">Tableros interactivos para análisis empresarial</p>
+                    </div>
+                    
+                    <div class="preview-card">
+                        <div class="preview-icon">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </div>
+                        <h4 class="preview-title" data-es="Integración APIs" data-en="API Integration">Integración APIs</h4>
+                        <p class="preview-description" data-es="Conexión de sistemas externos con APIs REST" data-en="Connection of external systems with REST APIs">Conexión de sistemas externos con APIs REST</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Education Section -->
+<section class="education fade-in" id="education">
+    <div class="container">
+        <h2 class="section-title" data-es="Formación Académica" data-en="Education">Formación Académica</h2>
+        
+        <!-- Universidad -->
+        <div class="row g-4 mb-5">
+            <div class="col-12">
+                <div class="education-card university-card">
+                    <div class="education-icon">
+                        <i class="bi bi-robot"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 data-es="Lic. en Inteligencia Artificial y Robótica" data-en="AI and Robotics Degree">Lic. en Inteligencia Artificial y Robótica</h3>
+                        <p class="institution">Universidad Siglo XXI</p>
+                        <span class="status" data-es="Alumno Regular - En curso" data-en="Regular Student - In progress">Alumno Regular - En curso</span>
+                        <div class="university-proof">
+                        <i class="bi bi-file-earmark-check"></i>
+                            <a href="documents/constancia-alumno-regular.pdf" target="_blank" class="download-link">
+                                <span data-es="Descargar Constancia de Alumno Regular" data-en="Download Regular Student Certificate">Descargar Constancia de Alumno Regular</span>
+                            </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cursos Coderhouse -->
+        <h3 class="text-center mb-4" data-es="Certificaciones Coderhouse" data-en="Coderhouse Certifications">Certificaciones Coderhouse</h3>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="bi bi-globe"></i>
+                    </div>
+                    <h4>Web Developer</h4>
+                    <p class="certificate-status completed" data-es="Completado" data-en="Completed">Completado</p>
+                    <a href="https://pub.coderhouse.com/legacy-certificates/616823e346e340003e9a01ae?lang=es" target="_blank" class="btn btn-outline-primary btn-sm">
+                        <i class="bi bi-award"></i> <span data-es="Ver Certificado" data-en="View Certificate">Ver Certificado</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+                    <h4>JavaScript</h4>
+                    <p class="certificate-status completed" data-es="Completado" data-en="Completed">Completado</p>
+                    <div class="btn btn-outline-secondary btn-sm disabled">
+                        <i class="bi bi-hourglass-split"></i> <span data-es="Certificado Pendiente" data-en="Certificate Pending">Certificado Pendiente</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="bi bi-microsoft"></i>
+                    </div>
+                    <h4>C#</h4>
+                    <p class="certificate-status completed" data-es="Completado" data-en="Completed">Completado</p>
+                    <a href="https://pub.coderhouse.com/legacy-certificates/6690297d57660388377be467?lang=es" target="_blank" class="btn btn-outline-primary btn-sm">
+                        <i class="bi bi-award"></i> <span data-es="Ver Certificado" data-en="View Certificate">Ver Certificado</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="bi bi-database"></i>
+                    </div>
+                    <h4>SQL</h4>
+                    <p class="certificate-status completed" data-es="Completado" data-en="Completed">Completado</p>
+                    <a href="https://pub.coderhouse.com/legacy-certificates/66a2e4db8ae0f6b775893bcd?lang=es" target="_blank" class="btn btn-outline-primary btn-sm">
+                        <i class="bi bi-award"></i> <span data-es="Ver Certificado" data-en="View Certificate">Ver Certificado</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i><img class ="python-img" src="img/Python-Emblem.png"></i>
+                    </div>
+                    <h4>Python</h4>
+                    <p class="certificate-status in-progress" data-es="En curso" data-en="In progress">En curso</p>
+                    <div class="btn btn-outline-warning btn-sm disabled">
+                        <i class="bi bi-clock"></i> <span data-es="En Progreso" data-en="In Progress">En Progreso</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i><img class="powerbi-img" src="img/power bi.png"></i>
+                    </div>
+                    <h4>Power BI</h4>
+                    <p class="certificate-status completed" data-es="Completado" data-en="Completed">Completado</p>
+                    <a href="https://pub.coderhouse.com/legacy-certificates/6711a2ba3a93b5b795bb331d?lang=es" target="_blank" class="btn btn-outline-primary btn-sm">
+                        <i class="bi bi-award"></i> <span data-es="Ver Certificado" data-en="View Certificate">Ver Certificado</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="bi bi-bank"></i>
+                    </div>
+                    <h4 data-es="Bachillerato en Ciencias Económicas" data-en="Economics High School Diploma">Bachillerato en Ciencias Económicas</h4>
+                    <p class="institution">Colegio Álvarez Condarco</p>
+                    <p class="certificate-status completed" data-es="Completado" data-en="Completed">Completado</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section class="contact fade-in" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-es="Contacto" data-en="Contact">Contacto</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-card">
+                        <div class="text-center mb-4">
+                            <p class="lead" data-es="¿Buscas un Junior Developer motivado? ¡Hablemos sobre tu próximo proyecto!" data-en="Looking for a motivated Junior Developer? Let's talk about your next project!">¿Buscas un Junior Developer motivado? ¡Hablemos sobre tu próximo proyecto!</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h5 data-es="Email" data-en="Email">Email</h5>
+                                <p><a href="mailto:franciscogrote@gmail.com">franciscogrote@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h5>LinkedIn</h5>
+                                <p><a href="https://www.linkedin.com/in/francisco-grote-331ba320b/" target="_blank">Francisco Perez Grote</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-github"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h5>GitHub</h5>
+                                <p><a href="https://github.com/Francisco-Grote" target="_blank">Francisco-Grote</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h5 data-es="Ubicación" data-en="Location">Ubicación</h5>
+                                <p data-es="Argentina - Disponible para trabajo remoto" data-en="Argentina - Available for remote work">Argentina - Disponible para trabajo remoto</p>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center mt-4">
+                            <a href="mailto:franciscogrote@gmail.com" class="btn btn-primary me-3" data-es="Enviar Email" data-en="Send Email">Enviar Email</a>
+                            <a href="https://www.linkedin.com/in/francisco-grote-331ba320b/" target="_blank" class="btn btn-outline-primary" data-es="Ver LinkedIn" data-en="View LinkedIn">Ver LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4" style="background: var(--bg-secondary); border-top: 1px solid var(--border-color);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0" style="color: var(--text-secondary);">
+                        © 2025 Francisco Perez Grote. <span data-es="Todos los derechos reservados." data-en="All rights reserved.">Todos los derechos reservados.</span>
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/francisco-grote-331ba320b/" target="_blank" class="social-link">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Francisco-Grote" target="_blank" class="social-link">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="mailto:franciscogrote@gmail.com" class="social-link">
+                            <i class="bi bi-envelope-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
