@@ -49,6 +49,18 @@ body {
     line-height: 1.6;
 }
 
+/* Links - Eliminar decoración de texto */
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+
 /* Navbar Styles */
 .navbar {
     background: rgba(255, 255, 255, 0.95);
@@ -778,61 +790,6 @@ body {
 .browser-content {
     padding: 1rem;
     min-height: 200px;
-}
-
-.truco-preview {
-    text-align: center;
-}
-
-.truco-header h4 {
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-    color: var(--primary-color);
-}
-
-.truco-teams {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1rem;
-}
-
-.team {
-    text-align: center;
-}
-
-.team-name {
-    font-size: 0.7rem;
-    color: var(--text-secondary);
-    display: block;
-    margin-bottom: 0.3rem;
-}
-
-.score {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
-    margin-bottom: 0.3rem;
-}
-
-.palitos {
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-    letter-spacing: 2px;
-}
-
-.vs {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--text-light);
-    padding: 0.5rem;
-    background: var(--bg-secondary);
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .project-content {
@@ -1698,28 +1655,6 @@ body {
         min-height: 150px;
     }
     
-    .truco-teams {
-        gap: 0.5rem;
-    }
-    
-    .team-name {
-        font-size: 0.6rem;
-    }
-    
-    .score {
-        font-size: 1.2rem;
-    }
-    
-    .palitos {
-        font-size: 0.7rem;
-    }
-    
-    .vs {
-        width: 30px;
-        height: 30px;
-        font-size: 0.7rem;
-    }
-    
     /* Other projects */
     .other-projects {
         margin-top: 3rem;
@@ -2002,43 +1937,6 @@ body {
         min-height: 120px;
     }
     
-    .truco-header h4 {
-        font-size: 0.8rem;
-        margin-bottom: 0.8rem;
-    }
-    
-    .truco-teams {
-        gap: 0.3rem;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    .team {
-        min-width: 60px;
-    }
-    
-    .team-name {
-        font-size: 0.55rem;
-    }
-    
-    .score {
-        font-size: 1rem;
-        margin-bottom: 0.2rem;
-    }
-    
-    .palitos {
-        font-size: 0.6rem;
-        letter-spacing: 1px;
-    }
-    
-    .vs {
-        width: 25px;
-        height: 25px;
-        font-size: 0.6rem;
-        order: 2;
-        margin: 0 0.5rem;
-    }
-    
     /* Other projects */
     .other-projects {
         margin-top: 2rem;
@@ -2214,22 +2112,6 @@ body {
     }
     
     .profile-bg {
-        animation: none;
-    }
-    
-    .coming-soon-icon {
-        animation: none;
-    }
-    
-    .float {
-        animation: none;
-    }
-    
-    .pulse {
-        animation: none;
-    }
-    
-    .fadeInUp {
         animation: none;
     }
     
